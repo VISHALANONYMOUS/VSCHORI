@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- jatin iyer-->
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="Tally.ERP9,Customization,Tally server9, Tally GST,Accounting Software,E-way bill,Tally Partner in Mumbai,Thane">
+
+        <title>VedantSoftSolution</title>    
+            <link rel="shortcut icon" href="images/favicon.png">
+
+        <!-- Plugins CSS -->
+        <link href="css/plugins/plugins.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--font-awesome-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+
+        <style>
+
+            @media screen and (max-width: 579px) and (min-width: 200px){
+            
+            .navbar-toggler{position:absolute !important;right:0 !important}
+            
+            .nav-sticky{height:auto !important}
+            
+            .logo-dark{margin-top:-5px !important}
+            }
+             .card1 {
+  box-shadow: 5px 8px 8px 5px rgba(0, 0, 0, 0.2);
+
+  
+  text-align: center;
+  font-family: arial;
+  border-radius: 50px;
+  background-color: white;
+}
+.card1:hover{
+     margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+            </style>
+    </head>
+
+    <body>
+        <div id="preloader">
+            <div id="preloader-inner"></div>
+        </div><!--/preloader-->
+
+        <!-- Pushy Menu -->
+        <!-- <aside class="pushy pushy-right">
+            <div class="cart-content">
+                <div class="clearfix">
+                    <a href="javascript:void(0)" class="pushy-link text-white-gray">Close</a>
+                </div>
+                <ul class="list-unstyled">
+                    <li class="clearfix">
+                        <a href="#" class="float-left">
+                            <img src="images/shop/p1.jpg" class="img-fluid" alt="" width="60">
+                        </a>
+                        <div class="oHidden">
+                            <span class="close"><i class="ti-close"></i></span>
+                            <h4><a href="#">Men's Special Watch</a></h4>
+                            <p class="text-white-gray"><strong>$299.00</strong> x 1</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#" class="float-left">
+                            <img src="images/shop/p2.jpg" class="img-fluid" alt="" width="60">
+                        </a>
+                        <div class="oHidden">
+                            <span class="close"><i class="ti-close"></i></span>
+                            <h4><a href="#">Men's tour beg</a></h4>
+                            <p class="text-white-gray"><strong>$99.00</strong> x 1</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#" class="float-left">
+                            <img src="images/shop/p3.jpg" class="img-fluid" alt="" width="60">
+                        </a>
+                        <div class="oHidden">
+                            <span class="close"><i class="ti-close"></i></span>
+                            <h4><a href="#">Women's T-shirts</a></h4>
+                            <p class="text-white-gray"><strong>$199.00</strong> x 1</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+
+                        <div class="float-right">
+                            <a href="#" class="btn btn-primary">Checkout</a>
+                        </div>
+                        <h4  class="text-white">
+                            <small>Subtotal - </small> $49.99
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </aside> -->
+        <!-- Site Overlay -->
+        <div class="site-overlay"></div>
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent bg-faded nav-sticky nav-stick-top nav-stick-top" style="height: 80px;border-radius: 50px;">
+            <div class="search-inline">
+                <form>
+                    <input type="text" class="form-control" placeholder="Type and hit enter...">
+                    <button type="submit"><i class="ti-search"></i></button>
+                    <a href="javascript:void(0)" class="search-close"><i class="ti-close"></i></a>
+                </form>
+            </div><!--/search form-->
+            <div class="container">
+
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img class='logo logo-dark' src="images/logo.png" alt="" style="margin-top: -10px;margin-left:-50px;width:220px;">
+                    <img class='logo logo-light hidden-md-down' src="images/logo.png" alt="" style="margin-top: -10px;margin-left:-50px;width:220px;;">
+                </a>
+                <div  id="navbarNavDropdown" class="navbar-collapse collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" style="font-size: 12px" href="index.html">Home</a>
+                           
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link" style="font-size: 12px"  href="javascript:void(0)">
+                                About Us 
+                            </a>
+                             <div class="dropdown-content">
+                                <b> <a href="about.html" style="font-size: 15px">About Us</a></b>
+                                <b> <a href="page-career.html" style="font-size: 15px">Careers</a></b>
+                                <b> <a href="#" style="font-size: 15px">Our Team</a></b>
+                            </div>
+                           
+                        </li>
+                        <li class="nav-item dropdown dropdown-full-width">
+                            <a class="nav-link" style="font-size: 12px" href="products.html">
+                                Product  
+                            </a>
+                              <div class="dropdown-content">
+                                     <b> <a href="products.html" style="font-size: 15px">Tally ERP.9</a>                             </b>                             <b>                                 <a href="tallyserver9.html" style="font-size: 15px">Tally Server.9</a>                             </b>
+                                     <b> <a href="app.html" style="font-size: 15px">Tally On Mobile</a></b>                                <b> <a href="page-busy.html" style="font-size: 15px">Busy</a></b>
+                                   <b> <a href="page-crm.html" style="font-size: 15px">CRM 9.O</a></b>
+                                    <b> <a href="page-hrms.html" style="font-size: 15px">HRMS</a></b>
+                                   </div>
+                           
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" style="font-size: 12px" href="service.html">Services</a>
+                            <div class="dropdown-content">
+                                <b> <a href="service.html" style="font-size: 15px">Tally Services</a></b>
+                               <b> <a href="page-web.html" style="font-size: 15px">Web Development</a></b>
+                                 <b> <a href="page-mobapp.html" style="font-size: 15px">App Development</a></b>
+                                <b> <a href="addon.html" style="font-size: 15px">Tally Add-on</a></b>
+                               <b> <a href="virticals.html" style="font-size: 15px">Verticals</a></b>                                 <b> <a href="invoice.html" style="font-size: 15px">Ready Invoice</a></b>
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link" style="font-size: 12px" href="solution.html">Solutions</a>
+                            <div class="dropdown-content">
+                                                                       <b> <a href="addon.html" style="font-size: 15px">ADD-ON</a></b>
+                                    <b> <a href="app.html" style="font-size: 15px">APP</a></b>
+                                    <b> <a href="virticals.html" style="font-size: 15px">VIRTICALS</a></b>
+                                   </div>
+                        </li> -->
+                       
+                        
+                        <li class="nav-item dropdown dropdown-full-width">
+                            <a class="nav-link" style="font-size: 12px" href="downloads.html">
+                                Downloads
+                            </a>
+                          
+                        </li>
+                        <li class="nav-item dropdown dropdown-full-width">
+                            <a class="nav-link" style="font-size: 12px" href="contact.html">
+                                Contacts
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-full-width">
+                            <a class="nav-link" style="font-size: 12px" href="tallyHelp.html">
+                                Tally Help
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-full-width">
+                            <a href="192.168.43.5:8080/VedantWebServices/OnlineServlet" class="btn btn-outline-info mb5">Free Demo</a>
+                        </li>
+                    </ul>   
+                       <li class="nav-item dropdown dropdown-full-width">
+                            <a class="nav-link" style="font-size: 15px;margin-right: -135px;">
+                               <i class="fa fa-phone"></i>+91- 76661 96669
+                            </a>
+                            <a class="nav-link" style="font-size: 15px;margin-right: -135px;">
+                               <i class="fa fa-envelope"></i>info@vedantsoft.in
+                            </a>
+                        </li>
+                </div>
+               
+            </div>
+        </nav>
+
+        <div class="page-titles-img title-space-lg bg-parallax parallax-overlay mb70"  style='background-image: url("images/about.jpg");border-radius: 30px;'>
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-8 ml-auto mr-auto">
+                        <h1 class='text-uppercase'>About Us </h1>
+
+                        <!--                                    <a href='https://www.youtube.com/watch?v=cctFcl5EFYk' class='modal-video btn btn-white-outline btn-lg btn-rounded'>Watch our film</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div><!--page title end-->
+        <div class='container-fluid 'style="padding-bottom:   30px;padding-right: 30px;padding-left: 30px;">
+                <div class="title-heading1 mb30">
+                        <h3>Mission, Vision & Value</h3>                       
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-sm-4">
+                            <div class="card card1" style="border-radius: 30px;width: 100%;">
+                                <div class="card-body">
+                                    <h4 class="card-title"><i class="icon-quote fa-2x"aria-hidden="true"style="padding-right: 5px;"></i> Mission</h4>
+                                    <p class="card-text"style="font-size: 20px">Profitable growth through superior customer service, inovation, quality and commitment. we delight our valuable clients and customers by maintaining statergic short and long term objectives.</p>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-sm-4">
+                            <div class="card card1"style="border-radius: 30px;width: 100%;padding-left: 4px;">
+                                <div class="card-body">
+                                    
+                                    <h4 class="card-title"><i class="fa fa-trophy fa-2x" aria-hidden="true"style="padding-right: 5px;"></i> VISION</h4>
+                                    <p class="card-text"style="font-size: 20px">Our vision is no strengthen our product and services by staying up-to-date in constantly changing competative business world.We act with commitment,honesty,openness and respect for others.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card card1"style="border-radius: 30px;width: 100%">
+                                <div class="card-body">
+                            
+                            
+                             
+                                    <h4 class="card-title"><i class="fa fa-globe fa-2x" aria-hidden="true"style="padding-right: 10px;size:15px; "></i>VALUES</h4>
+                                    <p class="card-text"style="font-size: 20px">We strongly believe in our values, which strengthens our determenation to build relationship,leadership, collabaration & accountability that leads to fullfill our vision and acheive our mission. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+           
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class='container mb40'>
+            <div class='row'>
+                <div class='col-lg-10 ml-auto mr-auto'>
+                    <div class="title-heading1 mb30">
+                        <div class="card card1"style="border-radius: 50px;background: linear-gradient(to right, #33ccff 0%, #ff99ff 100%);padding: 30px 30px 30px 30px;box-shadow: 0 9px 9px 0 rgba(0,0,0,0.2);transition: 0.3s;">
+                        <h3>About Vedant Soft Solution</h3>                       
+                    
+                    
+                    <p class='lead tritary-font mb50 text-center'style="font-weight:bold;padding: 20px 20px 20px 20px ">
+                            Vedant Soft Solutions Private Limited is one shop Sales & Services of Tally. Vedant Soft is a authorized Tally Partner and Authorized services centre providing total solutions for Tally. With Over 1500 installation. Vedant soft is focus on Tally Sales, Implementation, Corporate advance Training, Tally Invoice & Report Customization and integration. Hereby we are introducing you the benefits of Tally Software (Accounting Software) through which you can decrease your accounting work and increase your business profit. It is a time to change your old accounting techniques and accept latest methods through which you can get more that you are losing since so many years. Tally.ERP9 is a complete accounting software in which you can get advance method of accounting. Now a day’s every business man is using this software so that he can get everything which is related to his business. Vedant Soft Solutions help customers in advancing their business processes by fast communication and information flow, thus enhancing productivity, profitability immensely, extending their enterprise to their clients and suppliers. We follow a well-defined methodology that enables customers to exploit the benefits of Tally Software quickly, and in most cost-effective manner possible. Our Company’s success lies in its flexibility, fast action, responsiveness to customers, encouragement and reward to employees.                    </p>
+                
+                </div>
+            </div>
+        </div>
+
+            
+            <!-- <div class='row'>
+                <div class='col-lg-3 col-md-6 mb30'>
+                    <div class='team-card'>
+                        <img src='images/team1.jpg' alt='' class='img-fluid'>
+                        <div class='team-overlay align-items-center'>
+                            <div class='team-detail'>
+                                <h4>John Doe</h4>
+                                <span>Marketing manager</span>
+                                <div class='seprator-overlay'></div>
+                                <ul class='list-inline'>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-facebook'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-twitter'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'> <i class='fa fa-youtube'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-instagram'></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3 col-md-6 mb30'>
+                    <div class='team-card'>
+                        <img src='images/team2.jpg' alt='' class='img-fluid'>
+                        <div class='team-overlay align-items-center'>
+                            <div class='team-detail'>
+                                <h4>John Doe</h4>
+                                <span>Marketing manager</span>
+                                <div class='seprator-overlay'></div>
+                                <ul class='list-inline'>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-facebook'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-twitter'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'> <i class='fa fa-youtube'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-instagram'></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3 col-md-6 mb30'>
+                    <div class='team-card'>
+                        <img src='images/team3.jpg' alt='' class='img-fluid'>
+                        <div class='team-overlay align-items-center'>
+                            <div class='team-detail'>
+                                <h4>John Doe</h4>
+                                <span>Marketing manager</span>
+                                <div class='seprator-overlay'></div>
+                                <ul class='list-inline'>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-facebook'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-twitter'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'> <i class='fa fa-youtube'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-instagram'></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3 col-md-6 mb30'>
+                    <div class='team-card'>
+                        <img src='images/team4.jpg' alt='' class='img-fluid'>
+                        <div class='team-overlay align-items-center'>
+                            <div class='team-detail'>
+                                <h4>John Doe</h4>
+                                <span>Marketing manager</span>
+                                <div class='seprator-overlay'></div>
+                                <ul class='list-inline'>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-facebook'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-twitter'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'> <i class='fa fa-youtube'></i></a>
+                                    </li>
+                                    <li class='list-inline-item'>
+                                        <a href='#'><i class='fa fa-instagram'></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div><!--team-->
+        <div class='container mb50'style="border-radius: 30px;">
+            <div class="title-heading1 mb30">
+                <h3>why choose us</h3>                       
+            </div>
+            <div class="row special-feature">
+                <div class="col-md-3 col-sm-6 margin20">
+                    <div class="s-feature-box text-center">
+                        <div class="mask-top ">
+                            
+                            <i class="fa fa-users"></i>
+                            <h4>Dedicated Team</h4>
+                        </div>
+                        
+                        <div class="mask-bottom ">
+                            <i class="fa fa-users"></i>
+                            <h4>Dedicated Team</h4>
+                         </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-6 margin20">
+                    <div class="s-feature-box text-center">
+                        <div class="mask-top">
+                            
+                            <i class="fa fa-laptop"></i>
+                            <h4>Focus on Innovation</h4>
+                        </div>
+                        <div class="mask-bottom">
+                            
+                            <i class="fa fa-laptop"></i>
+                            
+                            <h4>Focus on Innovation</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 margin20">
+                    <div class="s-feature-box text-center">
+                        <div class="mask-top">
+                            
+                            <i class="fa fa-cogs"></i>
+                            
+                            <h4>Quality Of our Support is Unmatched</h4>
+                        </div>
+                        <div class="mask-bottom">
+                            
+                            <i class="fa fa-cogs"></i>
+                            
+                            <h4>Quality Of our Support is Unmatched</h4>
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 margin20">
+                    <div class="s-feature-box text-center">
+                        <div class="mask-top">
+                            
+                            <i class="fa fa-thumbs-up"></i>
+                            
+                            <h4>Proven Track Record</h4>
+                        </div>
+                        <div class="mask-bottom">
+                            
+                            <i class="fa fa-thumbs-up"></i>
+                            <h4>Proven Track Record</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='bg-faded pt100 pb100'style="border-radius: 30px;">
+            <div class='container text-center'style="border-radius: 50px;">
+                <div class='row'>
+                    <div class='col-lg-8 col-md-10 ml-auto mr-auto'>
+                        <h2 class='mb10'>Award & Recognitions</h2>
+                        <br><br>
+                        
+                            <div id="demo" class="carousel slide" data-ride="carousel" data-interval="1900"style=" margin: auto;border-radius: 30px;">
+                                <!-- Indicators -->
+                             <ul class="carousel-indicators">
+                             <li data-target="#demo" data-slide-to="0" class="active"></li>
+                             <li data-target="#demo" data-slide-to="1"></li>
+                             <li data-target="#demo" data-slide-to="2"></li>
+                             <li data-target="#demo" data-slide-to="3"></li>
+                             <li data-target="#demo" data-slide-to="4"></li>
+                             <li data-target="#demo" data-slide-to="5"></li>
+
+                             </ul>
+
+                             <!-- The slideshow -->
+                            <hr>
+                             <div class="carousel-inner "style=" margin: center;border-radius: 40px;">
+                             <div class="carousel-item active row "style=" margin: center;">
+                            <img src="images/a5.jpg" alt="" class="img-fluid">
+                             </div>
+                             <div class="carousel-item">
+                            <img src="images/a2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/a3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/a4.jpg" alt="" class="img-fluid">
+                           </div>
+                           <div class="carousel-item">
+                            <img src="images/imageedit_24_4921088960.jpg" alt="" class="img-fluid">
+                           </div>
+                           <div class="carousel-item">
+                            <img src="images/a7.png" alt="" class="img-fluid">
+                          </div>
+                          </div>
+                          <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"style="color:white;font-size: 50px;"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"style="color:white;font-size: 50px;"></span>
+                  </a>
+                </div>    <!-- Carousel -->
+                          <br>
+                          <br>
+                        </a><!--thumb-->
+                        
+                    </article>
+           
+                </div>
+                              <a href="images/brand_full.jpg"> <p class='mb20 lead'>
+                                Tally wins the 'Business Software Development Company of the Year' award for 2014-15 by Brands Academy.
+                                The award recognizes Tally's extraordinary achievements in the field of technology and having created a strong brand in the market. The award was conferred by Ms. Jaya Prada (Actor) at a ceremony organised in Bangalore on the 23rd of August, 2014                         </p></a>
+                                
+                               <a href=""> <p class='mb20 lead'>Tally wins Channel Champion Crown for Software Application, 2013
+                                        CRN, India's leading IT Channel publication, has awarded Tally Solutionsthe "Channel Champion Crown for Software Application, 2013". This survey stands as one of the most important analysis of channel friendliness of a company and rates them on the basis of how satisfied the partner community is with the channel policies and programs of the company. </p></a>
+                        <a target='_blank' href='https://tallysolutions.com/about-tally/' class='btn btn-lg btn-rounded btn-outline-primary'style="align-content: center;">View All</a>
+                                <br>
+                                <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+       
+        <footer class="footer footer-dark pt50 pb30 card1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6  ml-auto mr-auto text-center">
+                        <ul class="social-icons list-inline">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>Facebook
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>twitter
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>instagram
+                                </a>
+                            </li>
+                            <!-- <li class="list-inline-item">
+                                <a href="#">
+ 
+                                </a>
+                            </li> -->
+                        </ul>
+                        <h4><i class="fa fa-phone"></i>+91- 022-6247 4747</h4>
+                        <h4><i class="fa fa-envelope"></i>info@vedantsoft.in</h4>
+                        <p>&copy; Copyright 2018. VedantSoftSolution</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--back to top-->
+        <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="ti-angle-up"></i></a>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="js/plugins/plugins.js"></script> 
+        <script src="js/assan.custom.js"></script> 
+    </body>
+</html>

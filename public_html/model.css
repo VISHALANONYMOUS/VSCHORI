@@ -1,0 +1,93 @@
+/************************* FORM CSS***********************************/
+
+.avatar {
+    width: 60%;
+    height: 100%;
+    border: 1px none red;
+    float: left;
+}
+
+.buddy {
+    width: 40%;
+    height: 100%;
+    border: 1px none green;
+    float: left;
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightMainContainer {
+    width: 100%;
+    height: 100%;
+    float: left;
+    color: #fff;
+    display: table;
+}
+
+.formContainer {
+    margin: 20px 0px 20px 0px;
+    padding: 0px 10px;
+    width: 100%
+}
+
+.formHolder {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    z-index: 98;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: #28347B
+}
+
+.formContainer input[type=text] {
+    width: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #0189FF;
+    box-sizing: content-box;
+    background-color: transparent;
+    color: black
+}
+
+input[type=text]:focus {
+    border-bottom: 1px solid #0681C6
+}
+
+.formContainer>div {
+    margin: 5px 0px
+}
+
+/*************************  SUBMIT CSS***********************************/
+
+.submitContainer {
+    text-align: center;
+}
+
+.loginBox {
+    padding: 5px;
+}
+
+.loginButton {
+    width: 120px;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 12px;
+    background-color: #0189FF;
+    color: #FFFFFF;
+    margin: 0;
+    border: 0;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+.loginButton:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    opacity: 0.5;
+}
